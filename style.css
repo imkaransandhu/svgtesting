@@ -10,20 +10,49 @@ body {
     padding: 10% 5%;
 }
 
+.main-content-2 {
+    margin-top: 200px;
+    padding: 10% 5%;
+}
+
 .banner {
     position: relative;
     padding: 10% 5%;
     background-color: hsl(192, 40%, 40%);
 }
 
-.svg {
+/* .svg {
     width: 100%;
     position: absolute;
     left: 0;
     right: 0;
     top: calc((-10.9/100) * 100vw);
-    /* top: -165px; */
+     top: -165px; 
     background-image: url(./images/bg-footer-top-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+} */
+
+.top-curve {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc((-10.9/100) * 100vw);
+    background-image: url(./images/bg-section-top-desktop-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.bottom-curve {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -500px;
+    background-image: url(./images/bg-section-bottom-desktop-1.svg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 500px;
@@ -33,12 +62,24 @@ body {
 
 
 
-
 @media screen and (max-width: 768px) {
 
-    .svg {
+    /* .svg {
         top: calc((-14.1/100) * 100vw);
         background-image: url(./images/bg-footer-top-mobile.svg);
+    } */
+
+    .top-curve {
+        top: calc((-29.5/100) * 100vw);
+        background-image: url(./images/bg-section-top-mobile-1.svg);
     }
+
+    .bottom-curve {
+        /* bottom: calc((-14.1/100) * 100vw); */
+        bottom: -500px;
+        background-image: url(./images/bg-section-bottom-mobile-1.svg);
+    }
+
+
 
 }
