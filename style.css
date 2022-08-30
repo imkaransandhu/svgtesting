@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: brown;
 }
 
 
@@ -19,6 +20,7 @@ body {
     width: 100vw;
     position: absolute;
     left: 0;
+    right: 0;
     top: calc((-10.9/100) * 100vw);
 }
 
