@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-content {
+    margin-bottom: 200px;
+    padding: 10% 5%;
+}
+
+.banner {
+    position: relative;
+    padding: 10% 5%;
+    background-color: hsl(192, 40%, 40%);
+}
+
+.svg {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: calc((-10.9/100) * 100vw);
+}
+
+.mob , .desk {
+    width: 100%;
+}
+
+
+.mob {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .desk {
+        display: none;
+    }
+
+    .mob {
+        display: inline;
+    }
+
+    .svg {
+        top: calc((-14.1/100) * 100vw);
+    }
+
+}
