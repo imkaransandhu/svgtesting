@@ -41,7 +41,7 @@ body {
     right: 0;
     top: calc((-10.9/100) * 100vw);
     background-image: url(./images/bg-section-top-desktop-1.svg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
 }
@@ -53,7 +53,7 @@ body {
     right: 0;
     bottom: -500px;
     background-image: url(./images/bg-section-bottom-desktop-1.svg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
 }
